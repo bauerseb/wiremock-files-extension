@@ -13,16 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wiremock.extensions.template;
+package fr.pinguet62.wiremock.files;
 
 /**
  * Factory to this extension for usage with wiremock standalone service.
  *
  * The class needs to have a default constructor.
- * <p/>
- * TODO: When changing the class and package name,
- *  also adapt shadowjar/resources/META-INF/services/com.github.tomakehurst.wiremock.extension.ExtensionFactory
- *  to ensure that this extension can be loaded automatically when its on the classpath.
  */
 public class StandaloneTemplateExtension extends TemplateExtension {
 

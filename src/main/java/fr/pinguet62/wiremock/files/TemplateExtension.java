@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wiremock.extensions.template;
+package fr.pinguet62.wiremock.files;
 
 import com.github.tomakehurst.wiremock.extension.Extension;
 import com.github.tomakehurst.wiremock.extension.ExtensionFactory;
 import com.github.tomakehurst.wiremock.extension.WireMockServices;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.TemplateEngine;
-import org.wiremock.extensions.template.extensions.RequestMatcher;
+import fr.pinguet62.wiremock.files.extensions.RequestMatcher;
 
 import java.util.Collections;
 import java.util.List;

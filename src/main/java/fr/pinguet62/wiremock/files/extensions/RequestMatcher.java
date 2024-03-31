@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wiremock.extensions.template.extensions;
+package fr.pinguet62.wiremock.files.extensions;
 
 import com.github.tomakehurst.wiremock.core.ConfigurationException;
 import com.github.tomakehurst.wiremock.extension.Parameters;

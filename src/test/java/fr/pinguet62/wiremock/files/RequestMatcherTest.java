@@ -1,4 +1,4 @@
-package org.wiremock.extensions.template;
+package fr.pinguet62.wiremock.files;
 
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.common.Json;
