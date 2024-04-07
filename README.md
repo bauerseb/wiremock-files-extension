@@ -59,7 +59,7 @@ to classpath.
 ### Sample
 
 ```shell
-wget --output-document https://.../wiremock-files-extension-standalone.jar
+wget https://.../wiremock-files-extension.jar
 ```
 
 Docker compose:
@@ -69,5 +69,5 @@ services:
   mocks:
     image: wiremock/wiremock:3x
     volumes:
-      - ./wiremock-files-extension-standalone.jar:/var/wiremock/extensions/wiremock-files-extension-standalone.jar
+      - ./wiremock-files-extension.jar:/var/wiremock/extensions/wiremock-files-extension.jar
 ```
